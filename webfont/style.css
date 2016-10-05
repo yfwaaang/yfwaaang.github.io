@@ -1,0 +1,70 @@
+
+h1,h2,h3,h4,h5,h6,header,p,body
+{
+	margin:0;
+	padding:0;
+	border:0;
+	font-family: 'Merriweather', serif;
+	font-weight:300;
+}
+
+.header{
+	height:220px;
+	background-color:#2D2E46;
+	text-align:center;
+}
+
+h1{
+	padding-top:60px;
+	font-size:36px;
+	color:white;
+	font-weight:400;
+	/*border:white 1px solid;*/
+}
+
+h2{
+	padding-top:20px;
+	font-size:18px;
+	font-weight:300;
+	color:white;
+}
+
+.underlineContext{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+	border:red solid 1px;
+}
+
+h3{
+	padding-top:40px;
+	font-size:18px;
+	color:#A8C93D;
+	width:800px;
+	text-decoration: underline;
+}
+
+.paragraph{
+
+	margin:20px auto;
+	background:#A8C93D;
+	width:600px;
+	padding:40px 40px 40px 40px;
+	text-align:left;
+}
+
+p{
+	font-weight:300;
+	font-size:12px;
+	line-height:20px;
+}
+
+.title{
+	font-size:16px;
+	font-weight:700;
+}
+
+.content{
+	padding-top:30px;
+	color:white;
+}

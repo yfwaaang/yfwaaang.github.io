@@ -1,0 +1,25 @@
+
+body {
+  background-color:#ff9999;
+  margin:0;
+}
+
+#cream {
+  position: absolute;
+  width:400px;
+  height:400px;
+  background-color:#ffcc99;
+  margin:450px;
+  border-radius: 30%;
+  
+}
+
+#brown{
+	position:absolute;
+	width: 300px;
+	height: 300px;
+	background-color: #cc9966;
+	margin: 500px;
+	border-radius: 100%;
+	
+}

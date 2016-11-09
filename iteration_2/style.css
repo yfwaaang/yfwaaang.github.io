@@ -1,0 +1,14 @@
+body {
+  background-color:#ffffff;
+  margin:0;
+}
+.element {
+  width:40px;
+  height:100px;
+  background-color:#ff0000;
+  margin:10px;
+  position: absolute;
+}
+.random {
+	background-color:#333ff;
+}

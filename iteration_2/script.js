@@ -9,6 +9,7 @@ $(document).ready(function() { //always do this first. A special event
 
 
 
+
   //mouse interaction
   $('.element').mouseover(function(){
     $(this).css('background-color','#ff9900');
@@ -16,6 +17,9 @@ $(document).ready(function() { //always do this first. A special event
   $('.element').mouseout(function(){
     $(this).css('background-color','#ff80bf');
   });
+  setInterval(function(){
+     rotateGridObjects();
+   },1000);
 
   //-----------------------------------------------------------------------------------
   function drawGridObjects(){
@@ -50,3 +54,7 @@ $(document).ready(function() { //always do this first. A special event
     $("body").append( "<div class= 'element random' style='left:" + rx + "vw; top:" + ry + "vh; background-color:" + color +";'></div>" );  
   }
 });
+
+
+
+

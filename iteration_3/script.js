@@ -15,13 +15,14 @@ $(document).ready(function(){
   /* -------------------------------------------
   Code to run sequentially
   ----------------------------------------------- */
- $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=90210,us&appid=004f3a6544db0eca0337482ce30f67ff",function(result){
+  /*
+  $.getJSON("http://api.openweathermap.org/data/2.5/weather?zip=90210,us&appid=004f3a6544db0eca0337482ce30f67ff",function(result){
 
   var windSpeed = result.wind.speed;
 
   console.log("wind speed: " + windSpeed+  "meter/sec"); 
-
-   drawGridObjects(windSpeed);
+  */
+  drawGridObjects();
   /* -------------------------------------------
   Custom functions used above are defined below
   ----------------------------------------------- */
@@ -65,40 +66,3 @@ $(document).ready(function(){
   //drawRandomObject();
 
   });
-
-
-
-
-
-
-
-
-
-  });
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

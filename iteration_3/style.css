@@ -21,10 +21,22 @@ p{
   opacity: 0.7
 }
 .ball {
-  background-color: #ff9900;
+  background-color: #ff9900;
   width:300px;
   height:300px;
-  border-radius: 80%;
+  border-radius: 100%;
   opacity: 0.7;
+  margin: 230px;
   	
+}
+
+.square{
+  width:100px;
+  height:200px;
+  background-color:#ffd633;
+  border-radius: 60%
+  opacity:0.6;
+  position:fixed;
+  top:50%;
+  left:50%;
 }

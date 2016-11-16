@@ -1,5 +1,6 @@
 $(document).ready(function(){ 
-  
+
+  drawGridObjects();  
   //get funtion on ball
  
   $('.ball').mouseover(function(){
@@ -7,12 +8,59 @@ $(document).ready(function(){
       width: '+=300px'
     });
   });
+
   $('.ball').mouseout(function(){
     $(this).animate({
       width: '-=300px'
     });
   });
-  /* -------------------------------------------
+
+
+
+//------------------------------------------------------------------------------------------------------
+  //animate the aquare randomly
+   animateDiv();
+    
+
+function makeNewPosition(){
+    
+    // Get viewport dimensions (remove the dimension of the div)
+    var h = $('.square').height() - 50;
+    var w = $('.square').width() - 50;
+    
+    var nh = Math.floor(Math.random() * h);
+    var nw = Math.floor(Math.random() * w);
+    
+    return [nh,nw];    
+    
+}
+
+function animateDiv(){
+    var newq = makeNewPosition();
+    var oldq = $('.square').offset();
+    var speed = calcSpeed([oldq.top, oldq.left], newq);
+    
+    $('.square').animate({ top: newq[0], left: newq[1] }, speed, function(){
+      animateDiv();        
+    });
+    
+}
+
+function calcSpeed(prev, next) {
+    
+    var x = Math.abs(prev[1] - next[1]);
+    var y = Math.abs(prev[0] - next[0]);
+    
+    var greatest = x > y ? x : y;
+    
+    var speedModifier = 0.1;
+
+    var speed = Math.ceil(greatest/speedModifier);
+
+    return speed;
+
+}
+  /* ----------------------------------------------------------------------------------------
   Code to run sequentially
   ----------------------------------------------- */
   /*
@@ -22,7 +70,7 @@ $(document).ready(function(){
 
   console.log("wind speed: " + windSpeed+  "meter/sec"); 
   */
-  drawGridObjects();
+  
   /* -------------------------------------------
   Custom functions used above are defined below
   ----------------------------------------------- */

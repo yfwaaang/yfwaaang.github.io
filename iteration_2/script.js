@@ -4,8 +4,7 @@ $(document).ready(function() { //always do this first. A special event
   drawGridObjects();
   
   for (i = 0; i < 50; i++){
-    drawRandomObject();  
-  }
+
 
 
 
@@ -52,8 +51,10 @@ $(document).ready(function() { //always do this first. A special event
     }
     console.log("rx: " + rx + "ry:"+ ry);
     $("body").append( "<div class= 'element random' style='left:" + rx + "vw; top:" + ry + "vh; background-color:" + color +";'></div>" );  
-  }
+  };
+};
 });
+
 
 
 

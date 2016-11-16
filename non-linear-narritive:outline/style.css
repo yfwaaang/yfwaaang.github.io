@@ -1,0 +1,13 @@
+body {
+  background-color: #ff9999;
+}
+p{
+  font-family: 'Ravi Prakash', cursive;
+  font-size: 30px;
+  font-weight:700px;
+  position: relative;
+  top: 300px;
+  left: 0px;
+  color:#ff9900;
+  opacity:0.8; 
+}

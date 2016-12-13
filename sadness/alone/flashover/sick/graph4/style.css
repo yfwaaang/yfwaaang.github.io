@@ -1,0 +1,16 @@
+body{
+	background-color: #004d99;
+}
+
+a{
+	color:#ffffff;
+}
+
+p{
+    color:#ffffff;
+	font-family: 'Space Mono', monospace;
+	font-size: 100px;
+	margin-left: 150px;
+	margin-right:700px;
+	opacity: 0.3
+}

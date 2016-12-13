@@ -1,0 +1,19 @@
+body{
+	background-color: #264d00;
+}
+
+a {
+	color:#b35900;
+}
+
+p{
+    color:#b35900;
+	font-family: 'Space Mono', monospace;
+		font-family: 'Righteous', cursive;
+		font-family: 'Slackey', cursive;
+		font-family: 'Bungee', cursive;
+	font-size: 60px;
+	margin-left: 250px;
+	margin-right: 700px;
+	margin-top:100px;
+}

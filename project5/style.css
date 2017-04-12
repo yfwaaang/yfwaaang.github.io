@@ -1,0 +1,63 @@
+.homepage{
+	height:100%;
+	width:100%;
+	z-index: 100;
+	position:fixed;
+	top: 0;
+	left: 0;
+	background-size: cover;
+}
+.background1{
+/*
+	width: 70%;
+	height: 100%;*/
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+	background-size: cover;
+}
+
+.background2{
+	/*width: 30%;
+	height: 100%;*/
+	position: fixed;
+	top: 0;
+	/*left: 70%;*/
+	z-index: 100;
+	background-size: cover;
+
+/*
+	background-image: url("pattern web1-01.png");
+*/
+    }
+
+
+.background3 {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	z-index: 500;
+	top: 0;
+	left: 0;
+	/*clip-path: polygon(70% 55%, 0% 100%, 100% 100%);*/
+	background-size: cover;
+}
+
+
+.chair, .pot, .cabinet{
+	height:300px;
+	width:300px;
+	z-index: 100;
+	background-size: cover;
+}
+
+
+
+.box {
+	z-index: 1000;
+	position: fixed;
+	top: 0;
+	left: 0;
+
+}

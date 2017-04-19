@@ -1,5 +1,6 @@
 $(document).ready(function() { //always do this first. A special event 
   
+  console.log('drawGridObjects')
   //function calls
   drawGridObjects();
   

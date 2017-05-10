@@ -1,0 +1,110 @@
+div.category{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 15px;
+    padding: 25px;
+    opacity: 0.7;
+    text-align: left;
+    width: 15%;
+    float: left;
+    position: fixed;
+    margin-top: -20px;
+    line-height: 80px;
+    }
+    
+    .dot{
+        width: 1px;
+        height: 1px;
+        border-radius: 100%;
+        background-color: black;
+        opacity: 0.5;
+        position: fixed;
+        margin-top: 690px;
+        margin-left: 10px;   
+        padding: 15px;
+        position: fixed;
+}
+
+.box1{
+	background-color: transparent;
+	width: 15%;
+	height: 5000px;
+	float:left;
+}
+ 
+.box2{
+	background-color: transparent;
+	margin-top: -4980px;
+	width: 70%;
+	margin-left: 20%;
+	float: left;
+	position: relative;
+}
+
+ 
+
+.mo{
+
+   filter:blur(3px);
+}
+
+
+#title{
+	font-family: 'Roboto', sans-serif;
+	margin-top: 150px;
+    font-size: 25px;
+     -webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+    transform: rotate(90deg);
+    opacity: 0.7;
+    text-align: top;
+    margin-right: -60px;
+    width: 20%;
+    float: right;
+} 
+
+
+div.gallery {
+    margin: 0 23px 0 23px;
+    position: relative;
+    float: left;
+    width: 150px;
+    min-height: 300px;
+    margin-top: 30px;
+}
+
+
+
+div.gallery img {
+	margin-left: 10%
+	margin-right:10%;
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    font-size: 10px;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.grandma, .grandpa, .work, .rich, .fashion, .impact {
+    -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+    opacity: 0.9;
+}
+
+
+
+
+
+div.submit{
+	 font-family: 'Roboto', sans-serif;
+	 font-size: 15px;
+    opacity: 0.7;
+    text-align: center;
+    width: 100%;
+    float: left;
+    position: ;
+    margin-top: -35px;
+    line-height: 20px;
